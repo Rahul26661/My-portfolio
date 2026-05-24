@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Divyansh Varshney | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Poppins;
+}
+
+body{
+  background:linear-gradient(135deg,#0f172a,#111827,#1e1b4b);
+  color:white;
+}
+
+/* HERO */
+.hero{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:20px;
+}
+
+.hero h1{
+  font-size:3rem;
+}
+
+.hero p{
+  margin-top:10px;
+  opacity:0.8;
+}
+
+.btn{
+  margin-top:20px;
+  padding:12px 18px;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+  background:#06b6d4;
+  color:white;
+  text-decoration:none;
+}
+
+/* SECTION */
+section{
+  padding:60px 20px;
+  max-width:900px;
+  margin:auto;
+}
+
+h2{
+  text-align:center;
+  margin-bottom:20px;
+}
+
+/* PROJECT */
+.card{
+  background:rgba(255,255,255,0.08);
+  padding:20px;
+  border-radius:15px;
+  margin-top:20px;
+}
+
+/* SKILLS */
+.skills{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  justify-content:center;
+}
+
+.skill{
+  padding:10px 15px;
+  background:rgba(255,255,255,0.1);
+  border-radius:10px;
+}
+
+/* CONTACT */
+.contact{
+  text-align:center;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:20px;
+  opacity:0.6;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>Hi, I'm Divyansh Varshney</h1>
+  <p>Frontend Web Developer | HTML | CSS | JavaScript</p>
+  <a href="#projects" class="btn">View Projects</a>
+</div>
+
+<!-- ABOUT -->
+<section>
+  <h2>About Me</h2>
+  <p style="text-align:center; opacity:0.8;">
+    I am a beginner web developer who loves building modern websites using HTML, CSS and JavaScript.  
+    I am currently focused on improving my skills and building real-world projects.
+  </p>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="card">
+    <h3>Pro To-Do App</h3>
+    <p>Task management app with add, delete, edit, filters and localStorage support.</p>
+    <br>
+    <a href="https://pro-todo-app201.netlify.app/" class="btn" target="_blank">Live Demo</a>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section>
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="skill">HTML</div>
+    <div class="skill">CSS</div>
+    <div class="skill">JavaScript</div>
+    <div class="skill">GitHub</div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section>
+  <h2>Contact</h2>
+  <div class="contact">
+    <p>Email: varshneydivyansh87@gmail.com</p>
+  </div>
+</section>
+
+<footer>
+  © 2026 Divyansh Varshney | All Rights Reserved
+</footer>
+
+</body>
+</html>
